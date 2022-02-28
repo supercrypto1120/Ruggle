@@ -1,0 +1,95 @@
+.MuiDialog-container {
+    font-family: "ui-serif"!important;
+}
+
+.web3modal-modal-lightbox {
+    z-index: 10000 !important;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.app {
+    padding: 90px!important;
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid rgb(182, 177, 177);
+    padding: 70px 0;
+}
+
+.left-pannel {
+    display: flex;
+    align-items: flex-end;
+    width: 32%;
+    height: 260px;
+    padding: 10px;
+}
+
+.left-pannel > img {
+    width: 100%;
+    height: 100%;
+}
+
+.slide-pannel {
+    width: 50%;
+    padding: 10px;
+}
+
+.slide-pannel > img {
+    width: 100%;
+    height: 100%;
+}
+
+.right-pannel {
+    display: flex;
+    align-items: flex-end;
+    width: 32%;
+    height: 260px;
+    padding: 10px;
+}
+
+.right-pannel > img {
+    width: 100%;
+    height: 100%;
+}
+
+.slide-item {
+    width: 100%;
+    height: 300px;
+}
+
+.slide-item > img {
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    height: 80px;
+    overflow: hidden;
+    position: relative;
+}
+
+.logo > img {
+    width: 100%;
+    position: absolute;
+    top: -12px;
+    left: -15px!important;
+}
+
+
